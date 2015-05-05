@@ -26,7 +26,7 @@
 <?php
 	//CONFIG
 	$username = "david_southgate";
-	$api_key = "b1e6e2f5bdc9eedcf6ad19f846a96cb2";
+	$api_key = "APIKEY";
 	
 	//Construct the api url for this request
 	$api_url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=".$username."&api_key=".$api_key."&format=json";
