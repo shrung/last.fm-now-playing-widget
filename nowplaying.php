@@ -25,7 +25,7 @@
 ?>
 <?php
 	//CONFIG
-	$username = "david_southgate";
+	$username = "USERNAME";
 	$api_key = "APIKEY";
 	
 	//Construct the api url for this request
@@ -57,6 +57,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Refresh every 30 seconds -->
+		<meta http-equiv="refresh" content="30">
+	
 		<style>
 			body {
 				color: #fff;
